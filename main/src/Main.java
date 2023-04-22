@@ -26,6 +26,7 @@ public class Main {
         System.out.print("Final Grade: ");
         float finalGrade = scan.nextFloat();
         
+        
         Student s = new Student(firstName, lastName, year, course, section, midtermGrade, finalGrade);
         s.introduceSelf();
         s.evaluateGrade();
